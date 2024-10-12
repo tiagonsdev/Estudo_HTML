@@ -4,6 +4,7 @@
 	<head>
     	<title>Quiz para Programadores</title>
         <meta name = "description" content = "um quiz interativo para programadores">
+        <link rel="stylesheet" href="style.css">
     </head>
 	<body>
     	<header>
@@ -100,7 +101,7 @@
                 pelo logotipo abaixo?
             </h2>
             <figure>
-                <img src="./assets/baixados.jpg" alt="logotipo de uma linguagem de programação">
+                <img src="./assets/baixados.png" alt="logotipo de uma linguagem de programação">
                 <figcaption>Figura 1: Logotipo de uma linguagem de programação</figcaption><br>
 
                 <input type="text" id ="p8", name="pergunta8"
@@ -175,15 +176,15 @@
                 name ="email"><br>
                 <label for="comentarios">comentarios:</label><br>
                 <textarea id="comentarios" name="comentarios"
-                rows="4" cols="50" placeholder="Digite Seus comentarios aqui"></textarea>
+                rows="4" cols="50" placeholder="Digite Seus comentarios aqui"></textarea><br>
+                <button onclick="alert('FEEDBACK ENVIADO!!!')">Envie o feedback</button>
               </fieldset>
-
             </form>
           </section>
         </main>
         <footer>
-          <p>&copy Quiz de Programadores. Todos os direitos reservados </p>
-          <p>Para conhecer mais sobre min <a href="Sobremin.html" target="_blank">clique aqui</a></p>
+          <p class="paragrafo-footer">&copy Quiz de Programadores. Todos os direitos reservados </p>
+          <p class="paragrafo-footer">Para conhecer mais sobre min <a href="sobremin.html" target="_blank">clique aqui</a></p>
         </footer>
-    </body>
+    </body>
 </html>
