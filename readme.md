@@ -1,1 +1,1 @@
-Ola, este é o meu Estudo implementando o CSS Ultilizando o VSCODE
+Ola, este é o meu Estudo de HTML e CSS Ultilizando o VSCODE
